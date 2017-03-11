@@ -78,10 +78,6 @@ private:
   ///This event is called when the dialog is resized
   void resizeEvent(QResizeEvent*);
 
-  #ifndef NDEBUG
-  static void Test() noexcept;
-  #endif
-
 private slots:
   void OnTimerPressKey();
 
