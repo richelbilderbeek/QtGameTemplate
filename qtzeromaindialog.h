@@ -41,7 +41,7 @@ namespace ribi {
 
 class QtZeroMainDialog : public QtHideAndShowDialog
 {
-  Q_OBJECT
+  Q_OBJECT //!OCLINT
 
 public:
 
